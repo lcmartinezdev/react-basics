@@ -18,7 +18,7 @@ class App extends React.Component {
         <Header/>
         <Home
           name={"LCM"}
-          age={27}
+          initialAge={27}
           user={user}
         >
           <p>
