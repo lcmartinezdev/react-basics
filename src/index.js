@@ -20,7 +20,11 @@ class App extends React.Component {
           name={"LCM"}
           age={27}
           user={user}
-        />
+        >
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab facere accusamus a itaque harum odit, facilis sed maxime quos officiis. Eaque incidunt
+          </p>
+        </Home>
       </div>
     );
   };
