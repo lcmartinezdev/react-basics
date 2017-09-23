@@ -15,7 +15,7 @@ class App extends React.Component {
     }
     return (
       <div>
-        <Header/>
+        <Header textHomeLink="Hello World" />
         <Home
           name={"LCM"}
           initialAge={27}
