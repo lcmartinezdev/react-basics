@@ -1,5 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types';
+import Button from "./Button"
 
 
 export class Home extends React.Component {
@@ -28,6 +29,7 @@ export class Home extends React.Component {
               onClick={() => this.onMakeOlder()}>
                 Make me older
             </button>
+            <Button></Button>
             <div>
               <h4>Hoobies:</h4>
               <ul>
